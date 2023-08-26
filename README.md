@@ -1,2 +1,2 @@
 # JavaScript-Counter
-![alt text](https://raw.githubusercontent.com/talhd/JavaScript-Counter/main/ezgif-2-919a7b87fe.gif)
+https://im2.ezgif.com/tmp/ezgif-2-919a7b87fe.gif
