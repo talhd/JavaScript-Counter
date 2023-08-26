@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <style>
+        .counter {
+            width: 400px;
+            height: 150px;
+            border-radius: 10px;
+            background-color: #012d5c;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 20px; 
+            font-size: 60px;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        .button {
+            font-size: 60px;
+            background-color: transparent;
+            border: none;
+            color: inherit;
+            transition: transform 0.1s;
+            cursor: pointer; 
+            user-select: none;
+        }
+
+        .button:hover {
+            transform: scale(1.2);
+        }
+
+        .value {
+            background-color: #fc1a01;
+            border: 0.2rem solid white;
+            border-radius: 3px;
+            font-weight: bold;
+            padding: 4px 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="counter">
+        <div class="button" id="decrementButton">&#8722;</div>
+        <span class="value" id="displayValue">0</span>
+        <div class="button" id="incrementButton">&#43;</div>
+    </div>
+    <script src="counter.js"></script>
+</body>
+</html>
+
